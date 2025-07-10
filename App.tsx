@@ -1,10 +1,11 @@
 import "./App.css";
-import HexToRgbConverter from "./components/HexToRgbConverter";
+import Steps from "./components/Steps";
 
 function App() {
   return (
     <div>
-      <HexToRgbConverter />
+      <h1>Учёт тренировок</h1>
+      <Steps />
     </div>
   );
 }
